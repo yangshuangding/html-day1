@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .yj {
+            width: 200px;
+            height: 50px;
+            background: red;
+            border-radius: 10px;
+        }
+        .yuan {
+            width: 100px;
+            height: 100px;
+            background: blue;
+            border-radius: 50px;
+        }
+        .jn {
+            width: 200px;
+            height: 50px;
+            background: gold;
+            border-radius: 70px;
+        }
+        .ty {
+            width: 200px;
+            height: 50px;
+            background: green;
+            border-radius: 50%;
+        }
+        .qq {
+            width: 50px;
+            height: 50px;
+            background: hotpink;
+            border-radius: 0 25px 25px 0;
+        }
+        .qw {
+            width: 50px;
+            height: 50px;
+            background: hotpink;
+            border-radius: 25px 0 0 25px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h4>圆角矩形：设置border-radius的取值为实际像素大小</h4>
+    <div class="yj"></div>
+
+    <h4>正圆：矩形必须是正方形，设置border-radius取值大于等于高度一半或者直接设置50%</h4>
+    <div class="yuan"></div>
+    
+    <h4>胶囊形状：矩形必须是长方形，设置border-radius取值大于等于高度一半</h4>
+    <div class="jn"></div>
+
+    <h4>椭圆：矩形必须是长方形，设置border-radius取值为50%</h4>
+    
+    <h4 class="qq">右半圆</h4>
+    <h4 class="qw">左半圆</h4>
+    <div class="ty"></div>
+</body>
+</html>
