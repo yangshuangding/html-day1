@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         /*选择器1选择器2 {  css样式 }
+
+01、交集选择器可以更加精准的选择某一个元素，相当于即又关系，也就是两个需求都要满足
+
+02、最常用的还是标签选择器和类选择器的搭配使用,选择器2也可以是id选择器；
+
+03、交集选择器两个选择器之间是绝对不能书写空格，有了空格就会变成后代选择器； */
+
+        .box {
+            font-size: 30px;
+            color: blue;
+            font-weight: 700;
+        }
+        p.box {
+            color:lawngreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">我是div</div>
+    <p class="box">我是p标签</p>
+    <span class="box">我是span</span>
+    
+</body>
+</html>
