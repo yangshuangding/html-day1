@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css03/材料/base.css">
+    <style>
+        .side-nav {
+            width: 190px;
+            height: 420px;
+            background-color: rgba(0, 0, 0, .6);
+            padding: 12px 0;
+        }
+        .side-nav .list li a {
+            height: 44px;
+            color: #fff;
+            padding: 0 20px;
+            line-height: 44px;
+            display: block;
+            border-radius: 5px;
+            transition: 2s;
+        }
+        .side-nav .list li a:hover {
+            background-color: rgba(156, 153, 153, 0.6);
+        }
+        .side-nav .list li a::after {
+            content: '>';
+            float: right;
+            font-family: serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="side-nav">
+        <ul class="list">
+            <li><a href="#">前端开发</a></li>
+            <li><a href="#">后端开发</a></li>
+            <li><a href="#">移动开发</a></li>
+            <li><a href="#">人工智能</a></li>
+            <li><a href="#">商业预测</a></li>
+            <li><a href="#">云计算&大数据</a></li>
+            <li><a href="#">运维&从测试</a></li>
+            <li><a href="#">UI设计</a></li>
+            <li><a href="#">产品</a></li>
+        </ul>
+    </div>
+</body>
+</html>
