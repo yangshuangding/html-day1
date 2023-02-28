@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <style>
+        .fl {
+            float: left;
+        }
+        .fr {
+            float: right;
+        }
+        .box {
+            width: 600px;
+            height: 60px;
+            margin: 0 auto;
+            padding: 0 10px;
+            background-color: #fff;
+            box-shadow: 0 0 5px rgba(0,0,0,.3);
+            line-height: 60px;
+        }
+        .box h3 span {
+            display: inline-block;
+            vertical-align: middle;
+            width: 28px;
+            height: 28px;
+            background: url(./wz.png);
+            background-position: 0 -106px;
+            margin-bottom: 3px;
+        }
+        .box a::before {
+            display: inline-block;
+            width: 18px;
+            height: 14px;
+            background: url(./wz.png) no-repeat;
+            background-position: -251px 0;
+            content: '';
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h3 class="fl"><span></span>内容中心</h3>
+        <a href="#" class="fr">更多</a>
+    </div>
+</body>
+</html>
