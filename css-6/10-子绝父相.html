@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 父级盒子使用相对定位的时候，不会脱离标准流。还是占有原来的位置，不会影响后面的盒子布局 */
+        /* 父级盒子是用来占位置，如果使用了绝对定位，就会脱离标准流，并不会在标准流占位置，会导致后面的盒子布局混乱 */
+        .box {
+            width: 1200px;
+            height: 300px;
+            margin: 0 auto;
+            border: solid 2px #333;
+            position: relative;
+        }
+        .son {
+            position: absolute;
+            left: 100px;
+            top: 100px;
+            width: 100px;
+            height: 100px;
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="son">
+        </div>
+    </div>
+    <div style="height: 800px;background-color: red;"></div>
+</body>
+</html>
