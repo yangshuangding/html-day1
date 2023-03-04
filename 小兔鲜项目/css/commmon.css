@@ -1,0 +1,280 @@
+/* 这是整个网站公共区域的样式 */
+.w {
+    width: 1240px;
+    margin: 0 auto;
+}
+.top {
+    height: 52px;
+    background-color: #333;
+}
+/* 文字大小及颜色 */
+.top a {
+    font-size: 14px;
+    color: #dcdcdc;
+}
+/* 鼠标经过时颜色 */
+.top a:hover {
+    color: #27ba9b;
+}
+/* 父级盒子样式 */
+.top .top-nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 52px;
+}
+/* 竖线两边距离 */
+.top .top-nav span {
+    margin: 0 15px;
+}
+/* 手机图标样式 */
+.top .top-nav .iconfont {
+    font-size: 18px;
+    margin-right: 0;
+    margin-left: 0;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 8px;
+    padding-right: 23px;
+    height: 130px;
+    background-color: #fff;
+    align-items: center;
+}
+.logo {
+    height: 70px;
+    width: 247px;
+}
+.logo img {
+    height: 70px;
+}
+/* 文字盒子 */
+.nav {
+    width: 745px;
+    height: 32px;
+    line-height: 32px;
+}
+.nav ul {
+    display: flex;
+}
+/* 文字样式 */
+.nav a {
+    margin-right: 48px;
+    font-size: 16px;
+    color: #333;
+    height: 32px;
+    display: inline-block;
+}
+/* 文字底部线条 */
+.nav a:hover {
+    color: #27ba9b;
+    border-bottom: #27ba9b solid 1px;
+}
+/* 搜索框盒子样式 */
+.seach {
+    width: 173px;
+    height: 42px;
+    align-items: center;
+}
+.seach form {
+    display: flex;
+}
+/* 搜索图标 */
+.seach form button {
+    width: 30px;
+    height: 42px;
+    background-color: #fff;
+    border-bottom: solid 2px #e7e7e7;
+}
+/* 搜索框样式 */
+.seach input {
+    height: 42px;
+    border-bottom: solid 2px #e7e7e7;
+}                                        
+/* 搜索框内文字样式 */
+.seach input::placeholder {
+    text-indent: 11px;
+    color: #cccccc;
+}
+/* 搜索图标样式 */
+.seach .iconfont {
+    font-size: 18px;
+}
+/* 购物车图标大小 */
+.shop-car {
+    width: 26px;
+    height: 26px;
+    position: relative;
+}
+/* 购物车图标样式 */
+.shop-car .iconfont {
+    font-size: 26px;
+    color: #000;
+}
+/* 购物车右上角显示数字 */
+.shop-car .num {
+    font-size: 13px;
+    height: 14px;
+    line-height: 14px;
+    background-color: #e26237;
+    position: absolute;
+    left: 14px;
+    top: 0;
+    border-radius: 7px;
+    padding: 0 6px;
+    color: #fff;
+}
+.foot {
+    height: 346px;
+    background-color: #333;
+}
+.foot-list {
+    width: 1393px;
+    height: 176px;
+    border-bottom: 1px solid #434343;
+    margin: 0 auto;
+
+}
+.foot-list ul {
+    display: flex;
+    align-items: center;
+    height: 176px;
+}
+.foot-list ul li {
+    display: flex;
+    flex: 1;
+    height: 58px;
+    align-items: center;
+    margin-left: 130px;
+}
+.foot-list ul li p {
+    padding-left: 20px;
+}
+.foot-list ul .bk {
+    width: 58px;
+    height: 58px;
+    background: url(../小兔鲜项目素材/images/sprites.png) no-repeat;
+}
+.foot-list ul li:nth-child(2) .bk {
+    width: 58px;
+    height: 58px;
+    background-position: -65px 0;
+}
+.foot-list ul li:nth-child(3) .bk {
+    width: 58px;
+    height: 58px;
+    background-position: -130px 0;
+}
+.foot-copy {
+    height: 168px;
+text-align: center;
+}
+.foot-copy a {
+    display: inline-block;
+    font-size: 14px;
+    color: #999;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.foot-copy span {
+    margin: 0 10px;
+}
+
+/* 服务列表 */
+.service {
+    height: 302px;
+    display: flex;
+    align-items: center;
+}
+.item {
+    flex: 1;
+    height: 189px;
+    text-align: center;
+    /* border-left: 1px solid #dcdcdc; */
+}
+.service .item:last-child {
+    border-left: 1px solid #dcdcdc;
+}
+.item h3 {
+    font-size: 16px;
+    color: #999;
+    margin-bottom: 35px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.item h4 {
+    font-size: 22px;
+    color: #666;
+    padding-top: 18px;
+    margin-bottom: 10px;
+}
+.item p {
+    font-size: 15px;
+    color: #999;
+}
+.fw-me {
+    display: flex;
+}
+.fw-me a:first-child {
+
+    margin-left: 58px;
+    margin-right: 7px;
+}
+.fw-me a {
+    width: 93px;
+    height: 92px;
+    border: solid 1px #cccccc;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #666;
+}
+.fw-me a:hover {
+    color: #27ba9b;
+}
+.fw-me .iconfont {
+    font-size: 30px;
+    margin-top: 20px;
+}
+.fw-me a p {
+    font-size: 14px;
+    color: #999;
+    margin-top: 10px;
+}
+.bjs {
+    background-color: #fff;
+}
+.app {
+    display: flex;
+}
+.app .qrcode {
+    width: 116px;
+    height: 116px;
+    padding: 5px;
+    border: solid 1px #ccc;
+    margin-left: 30px;
+    margin-right: 22px;
+}
+.app .qrcode img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.app .txt {
+    padding-top: 10px;
+}
+.app .txt a {
+    display: block;
+    width: 103px;
+    height: 32px;
+    background-color: #27ba9b;
+    line-height: 32px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 18px;
+}

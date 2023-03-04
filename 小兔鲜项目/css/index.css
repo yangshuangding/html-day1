@@ -1,0 +1,456 @@
+/* lieb */
+.list {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 500px;
+    /* justify-content: space-between; */
+    background: url(../小兔鲜项目素材/uploads/banner_1.png) no-repeat;
+}
+.list .list-lb {
+    width: 251px;
+    height: 500px;
+}
+.list .list-lb ul li {
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(0,0,0,.7);
+}
+.list .list-lb ul li:hover {
+    background-color: #27ba9b;
+}
+.list .list-lb ul li .txt1 {
+    margin-left: 38px;
+    margin-right: 15px;
+    font-size: 16px;
+    color: #fff;
+}
+.list .list-lb ul li .txt2 {
+    font-size: 14px;
+    color: #fff;
+}
+.list .list-lb ul li .txt3 {
+    font-family: serif;
+    float: right;
+    color: #fff;
+    margin-right: 11px;
+}
+.tub {
+    width: 989px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.tub .you {
+    width: 45px;
+    height: 45px;
+    background-color: rgba(0,0,0,.3);
+    border-radius: 22px;
+    margin-right: 9px;
+}
+.tub .zuo {
+    width: 45px;
+    height: 45px;
+    background-color: rgba(0,0,0,.3);
+    border-radius: 22px;
+    margin-left: 9px;
+}
+.tub .iconfont {
+    font-size: 23px;
+    color: #fff;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 12px;
+}
+.xdd {
+    width: 109px;
+    height: 10px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: 75px;
+    justify-content: space-between;
+    margin-bottom: 31px;
+}
+.xdd span {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255,255,255,.5);
+    border-radius: 5px;
+}
+/* 新鲜好物 */
+.hw-box {
+    height: 520px;
+    background-color: #fff;
+}
+.hw-nav {
+    height: 114px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 34px;
+}
+.hw-nav a {
+    font-size: 16px;
+    color: #999;
+}
+.hw-nav .xxhw {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.rmpp .rmpp-nav h3,
+.hw-nav .xxhw h3 {
+    font-size: 29px;
+    color: #333;
+}
+.rmpp .rmpp-nav p,
+.hw-nav .xxhw p {
+    font-size: 16px;
+    color: #999;
+    margin-left: 34px;
+}
+.hw-nav a span {
+    font-family: serif;
+    margin-left: 13px;
+}
+.hw-list {
+    height: 406px;
+}
+.hw-list ul {
+    display: flex;
+    justify-content: space-between;
+}
+.hw-list ul li {
+    width: 304px;
+    height: 406px;
+    background-color: #f0f9f4;
+}
+.hw-list ul li img {
+    width: 304px;
+}
+.hw-list ul li h3 {
+    padding-top: 22px;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    padding-bottom: 12px;
+    font-weight: normal;
+}
+.hw-list ul li p {
+    color: #9a2e1f;
+    font-size: 23px;
+    text-align: center;
+}
+/* 使用伪元素添加右箭头 */
+/* .list-lb li::after {
+    float: right;
+    content: '\e8f1';
+    font-family: iconfont;
+    color: #fff;
+} */
+.hw-list ul li .rq {
+    font-size: 16px;
+    color: #999;
+}
+.hw-list ul .bs {
+    background-color: #fff;
+}
+.bjys {
+    background-color: #f5f5f5;
+}
+.rmpp {
+    height: 465px;
+}
+.rmpp-zc {
+    height: 115px;
+    align-items: end;
+    display: flex;
+    position: relative;
+}
+.rmpp .rmpp-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+.zyjt {
+    width: 52px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 16px;
+}
+.zyjt span {
+    width: 20px;
+    height: 20px;
+    background-color: #e2e2e2;
+    display: block;
+    font-family: serif;
+    padding-left: 6px;
+    color: #fff;
+}
+.zyjt span:hover {
+    background-color: #27ba9b;
+}
+.zyjt .y-jt {
+    float: right;
+}
+.zyjt .z-jt {
+    float: left;
+}
+/* 热卖品牌 */
+.rmpp-tp {
+    height: 350px;
+    width: 1240px;
+}
+.rmpp-tp ul {
+    display: flex;
+    justify-content: space-between;
+}
+.rmpp-tp ul li img {
+    width: 244px;
+}
+/* 生鲜 */
+.sx-box {
+    height: 707px;
+}
+.sx-nav {
+    height: 97px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 36px;
+}
+.sx-sg {
+    width: 510px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.sx-sg ul {
+display: flex;
+}
+.sx-sg ul li a {
+    font-size: 16px;
+    color: #333;
+    padding: 2px 6px;
+}
+.sx-sg ul li {
+    width: 46px;
+    height: 20px;
+}
+.sx-sg ul li:nth-child(3) {
+    width: 61px;
+}
+.sx-sg ul li:hover {
+    background-color: #27ba9b;
+    
+}
+.sx-sg ul li a:hover {
+    color: #fff;
+}
+.sx-txt {
+    font-size: 29px;
+    color: #333;
+}
+.sx-sg p a {
+    color: #999;
+    font-size: 16px;
+}
+.sx-sg p span {
+    font-family: serif;
+}
+.sx-list {
+    height: 610px;
+    display: flex;
+    justify-content: space-between;
+}
+.sx-tp {
+    height: 610px;
+    width: 249px;
+}
+.sx-tp img {
+    height: 610px;
+}
+.sx-tp2 {
+    width: 991px;
+    height: 610px;
+}
+.sx-tp2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sx-tp2 ul li {
+    width: 242px;
+    height: 304px;
+    position: relative;
+}
+.sx-tp2 ul li img {
+    width: 184px;
+    height: 184px;
+    margin: 8px 29px 0 29px;
+}
+.sx-tp2 ul li h3 {
+    margin-left: 29px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    margin-top: 12px;
+     /* 允许单词内换行 */
+  word-break: break-all;
+  text-overflow: ellipsis;
+  /* 开启盒子的弹性布局 */
+  /* 控制第几行出现省略号 */
+  -webkit-line-clamp: 2;
+  /* 设置子元素从上向下垂直排列 */
+  -webkit-box-orient: vertical;
+}
+.sx-tp2 ul li p {
+    font-size: 22px;
+    color: #9a2e1f;
+    margin-left: 29px;
+}
+.sx-tp2 ul li:hover {
+    border: #27ba9b solid 2px;
+}
+.sx-tp2 ul li {
+    position: relative;
+    width: 242px;
+    height: 304px;
+    /* border: 1px solid #ccc; */
+    overflow: hidden;
+}
+.sx-tp2 ul li .mask {
+    position: absolute;
+    left: 0;
+    bottom: -84px;
+    height: 84px;
+    width: 100%;
+    padding: 15px 55px 0;
+    background-color: #27ba9b;
+    text-align: center;
+    color: #fff;
+    transition: .3s;
+}
+.sx-tp2 ul li .mask h4:first-child {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 7px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+.sx-tp2 ul li .mask h4 {
+    font-weight: 400;
+}
+.sx-tp2 ul li:hover .mask {
+    bottom: 0;
+}
+.zx-zt {
+    height: 512px;
+    /* background-color: aquamarine; */
+}
+.zx-tb {
+    height: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.zx-tb h3 {
+    font-size: 29px;
+    color: #333;
+    margin-bottom: 43px;
+}
+.zx-tb a {
+    font-size: 16px;
+    color: #999;
+    margin-bottom: 43px;
+}
+.zx-db {
+    height: 356px;
+}
+.zx-ul {
+    display: flex;
+    justify-content: space-between;
+}
+.bjys2 {
+    margin-top: 53px;
+    height: 512px;
+    background-color: #f5f5f5;
+}
+.zx-db .zx-ul .zx-li {
+    width: 404px;
+    height: 356px;
+}
+.zx-db .zx-ul .zx-li img {
+    width: 404px;
+    height: 288px;
+}
+.zx-db .zx-ul .zx-li .txt {
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 17px 0;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    height: 70px;
+}
+.zx-db .zx-ul .zx-li .txt .sc {
+    margin-right: 24px;
+}
+.zx-db .zx-ul .zx-li .txt i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    width: 20px;
+    height: 16px;
+    background: url(../小兔鲜项目素材/images/sprites.png) no-repeat;
+    background-position: -119px -109px ;
+}
+.zx-db .zx-ul .zx-li .ck i {
+    background-position: -159px -109px;
+}
+.zx-db .zx-ul .zx-li .pl i {
+    background-position: -199px -109px;
+}
+.zx-db .zx-ul .zx-li .pic .jbs {
+    height: 144px;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 404px;
+}
+.zx-db .zx-ul .zx-li .pic {
+    width: 404px;
+    height: 288px;
+    position: relative;
+}
+.zx-db .zx-ul .zx-li .pic .jbs h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 65px;
+    margin-left: 15px;
+}
+.zx-db .zx-ul .zx-li .pic .jbs .ppp {
+    font-size: 16px;
+    color: #999;
+    margin-left: 15px;
+    margin-top: 13px;
+}
+.zx-db .zx-ul .zx-li .price {
+    width: 80px;
+    height: 27px;
+    background-color: #fff;
+    color: #9a2e1f;
+    position: absolute;
+    right: 18px;
+    bottom: 29px;
+    font-size: 17px;
+}
+.zx-db .zx-ul .zx-li .price p {
+    padding: 3px 5px;
+}
